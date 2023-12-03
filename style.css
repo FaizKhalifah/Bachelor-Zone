@@ -3,6 +3,18 @@
     padding: 0px;
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    color: rgb(15, 15, 100);
+}
+.logo img{
+    width: 100px;
+    margin: 10px;
+}
+
 nav{
     background-color: rgb(15, 15, 100);
 }
@@ -16,12 +28,17 @@ ul{
     align-content: space-between;
 }
 
-ul li{
-    padding: 5px;
-}
 
 ul a{
+    display: block;
+    padding: 10px;
     text-decoration: none;
-    color: white;
-    
+    color: white; 
+    margin: 0px;
+}
+
+ul a:hover{
+    color: rgb(15, 15, 100);
+    background-color: white;
+    transition: 0.3s;
 }
