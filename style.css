@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgb(15, 15, 100);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-inline: 4rem;
+    align-content: space-between;
+}
+
+ul li{
+    padding: 5px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    
+}
