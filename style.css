@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Quicksand:wght@400;500;700&family=Roboto&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins';
 }
 
 .logo{
@@ -41,4 +45,55 @@ ul a:hover{
     color: rgb(15, 15, 100);
     background-color: white;
     transition: 0.3s;
+}
+
+.containerTerbaru{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.terbaru{
+    margin: 20px;
+    padding: 25px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.terbaru img{
+    width: 650px;
+    transition: 0.3s;
+}
+
+.terbaru img:hover{
+    opacity: 0.5;
+}
+
+.terbaru h1{
+    text-align: center;
+}
+
+.terbaru h2{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.terbaru h2:hover{
+    color: rgb(15, 15, 100);
+}
+.terbaru p{
+    font-size: larger;
+    text-align: left;
+    color: gray;
+}
+
+.terbaru_2{
+    width: 700px;
+    margin: 20px;
 }
