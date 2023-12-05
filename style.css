@@ -69,6 +69,7 @@ ul a:hover{
 .terbaru img{
     width: 650px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .terbaru img:hover{
@@ -95,7 +96,7 @@ ul a:hover{
 }
 
 .terbaru_2{
-    width: 900px;
+    width: 75%;
     margin: 20px;
 }
 
@@ -103,12 +104,12 @@ ul a:hover{
     margin: 20px 0px;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 2em;
     align-items: center;
 }
 
 .terbaru_2 img{
-    width: 300px;
+    width: 20rem;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -128,10 +129,11 @@ ul a:hover{
 }
 
 .pendidikan{
+    width: 100%;
     margin: 20px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 2rem;
     align-items: stretch;
 }
@@ -139,16 +141,14 @@ ul a:hover{
 .pendidikan article{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 30rem;
     align-items: center;
-    align-content: center;
-    justify-content: center;
     text-align: center;
 }
 
 
 .pendidikan img{
-    height: 200px;
+    height: 15rem;
     transition: 0.3s;
     cursor: pointer;
 }
