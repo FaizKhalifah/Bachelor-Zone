@@ -167,3 +167,41 @@ ul a:hover{
 .pendidikan img:hover{
     opacity: 0.5;
 }
+
+.parawisata{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.parawisata article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin: 10px;
+}
+
+.parawisata img{
+    width: 300px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.parawisata img:hover{
+    opacity: 0.5;
+}
+
+.parawisata h2{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.parawisata h2:hover{
+    color:rgb(15, 15, 100) ;
+}
+
+aside{
+    flex: 1;
+}
