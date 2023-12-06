@@ -205,3 +205,11 @@ ul a:hover{
 aside{
     flex: 1;
 }
+
+.kesehatan{
+    margin: 20px;
+}
+
+.kesehatan img{
+    width: 20rem;
+}
