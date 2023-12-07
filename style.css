@@ -63,7 +63,7 @@ ul a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    text-align: center;
 }
 
 .terbaru img{
@@ -95,8 +95,15 @@ ul a:hover{
     color: gray;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
 .terbaru_2{
-    width: 75%;
+    width: 70%;
     margin: 20px;
 }
 
@@ -126,6 +133,37 @@ ul a:hover{
 
 .terbaru_2 img:hover{
     opacity: 0.5;
+}
+
+.populer{
+    width: 25%;
+    margin: 3rem 2rem;
+    border: 1px gray solid;
+    text-align: center;
+    padding: 1rem;
+}
+
+.populer img{
+    width: 10rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.populer h3{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.populer img:hover{
+    opacity: 0.5;
+}
+
+.populer h3:hover{
+    color: rgb(15, 15, 100);
+}
+
+.populer article{
+    margin: 1.5rem;
 }
 
 .pendidikan{
@@ -202,14 +240,22 @@ ul a:hover{
     color:rgb(15, 15, 100) ;
 }
 
-aside{
-    flex: 1;
-}
-
 .kesehatan{
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    gap: 2rem;
 }
 
 .kesehatan img{
+   height: 10rem;
+}
+
+.kesehatan article{
+    text-align: center;
     width: 20rem;
 }
