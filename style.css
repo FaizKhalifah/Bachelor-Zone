@@ -135,7 +135,7 @@ ul a:hover{
     opacity: 0.5;
 }
 
-.populer{
+aside{
     width: 25%;
     margin: 3rem 2rem;
     border: 1px gray solid;
@@ -143,26 +143,26 @@ ul a:hover{
     padding: 1rem;
 }
 
-.populer img{
+aside img{
     width: 10rem;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.populer h3{
+aside h3{
     cursor: pointer;
     transition: 0.3s;
 }
 
-.populer img:hover{
+aside img:hover{
     opacity: 0.5;
 }
 
-.populer h3:hover{
+aside h3:hover{
     color: rgb(15, 15, 100);
 }
 
-.populer article{
+aside article{
     margin: 1.5rem;
 }
 
@@ -207,6 +207,7 @@ ul a:hover{
 }
 
 .parawisata{
+    width: 70%;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -229,6 +230,7 @@ ul a:hover{
 
 .parawisata img:hover{
     opacity: 0.5;
+    
 }
 
 .parawisata h2{
@@ -258,4 +260,12 @@ ul a:hover{
 .kesehatan article{
     text-align: center;
     width: 20rem;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    height: 2rem;
+    padding: 1rem;
+
 }
