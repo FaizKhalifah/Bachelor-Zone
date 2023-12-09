@@ -255,6 +255,21 @@ aside article{
 
 .kesehatan img{
    height: 10rem;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.kesehatan h2{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.kesehatan img:hover{
+    opacity: 0.5;
+}
+
+.kesehatan h2:hover{
+    color:rgb(15, 15, 100) ;
 }
 
 .kesehatan article{
@@ -267,5 +282,5 @@ footer{
     color:white;
     height: 2rem;
     padding: 1rem;
-
+    
 }
