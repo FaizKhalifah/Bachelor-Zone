@@ -1,0 +1,1 @@
+Konten ini hanya terdiri dari satu file html dan satu file css. Untuk gambar berada di folder kumpulan gambar. Gambar yang ada di website ini diambil dari pixabay dan unsplash. Layouting menggunakan flexbox pada css-nya.  
